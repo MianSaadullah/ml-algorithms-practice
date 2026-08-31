@@ -8,6 +8,9 @@ Hands-on implementations of core machine learning algorithms, built from scratch
 - ElasticNet Regression
 - Logistic Regression (binary classification)
 - Naive Bayes (GaussianNB)
+- K-Nearest Neighbors (KNN) Classification
+- Decision Tree Classification
+- Decision Tree Regression
 
 ## Tools Used
 Python, pandas, scikit-learn
@@ -16,4 +19,8 @@ Python, pandas, scikit-learn
 - Train/test splitting and why it matters
 - Bias-variance tradeoff and regularization (Ridge/Lasso)
 - Probability-based classification with Logistic Regression and Naive Bayes
-- Model evaluation using MAE, MSE, RMSE, and accuracy
+- Distance-based classification with KNN (Euclidean/Manhattan distance)
+- Tree-based models using Entropy/Information Gain (classification) and Variance Reduction (regression)
+- Pre-pruning techniques (max_depth) to prevent overfitting
+- Model evaluation using MAE, MSE, RMSE, Accuracy, Precision, and Recall
+- Comparing algorithm performance on the same dataset to understand trade-offs
